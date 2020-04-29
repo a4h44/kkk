@@ -1,6 +1,6 @@
 pragma solidity 0.6.4;
 
-import "IRelayerIncentivize.sol";
+import "./IRelayerIncentivize.sol";
 
 
 contract RelayerIncentivize is IRelayerIncentivize {

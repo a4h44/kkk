@@ -1,12 +1,12 @@
 pragma solidity 0.6.4;
 
-import "IERC20.sol";
-import "ILightClient.sol";
-import "IRelayerIncentivize.sol";
-import "MerkleProof.sol";
-import "ISystemReward.sol";
-import "ITokenHub.sol";
-import "IRelayerHub.sol";
+import "./IERC20.sol";
+import "./ILightClient.sol";
+import "./IRelayerIncentivize.sol";
+import "./MerkleProof.sol";
+import "./ISystemReward.sol";
+import "./ITokenHub.sol";
+import "./IRelayerHub.sol";
 
 contract TokenHub is ITokenHub {
 

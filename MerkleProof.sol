@@ -1,6 +1,6 @@
 pragma solidity 0.6.4;
 
-import "Memory.sol";
+import "./Memory.sol";
 
 library MerkleProof { 
     function validateMerkleProof(bytes32 appHash, string memory storeName, bytes memory key,

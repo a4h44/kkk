@@ -1,9 +1,9 @@
 pragma solidity 0.6.4;
 
-import "Memory.sol";
-import "ILightClient.sol";
-import "ISystemReward.sol";
-import "IRelayerHub.sol";
+import "./Memory.sol";
+import "./ILightClient.sol";
+import "./ISystemReward.sol";
+import "./IRelayerHub.sol";
 
 contract TendermintLightClient is ILightClient {
 
